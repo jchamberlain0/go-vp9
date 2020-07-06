@@ -1,0 +1,15 @@
+{
+  "InputFilename": "megaflip2",
+  "InputExtension": ".avi",
+  "OutputExtension": ".webm",
+  "Debug": true,
+  "Batch": true,
+  "Environment": "dev",
+  "Mode": "file",
+  "FileDir": "D:/obs-lossless/",
+  "OutFileDir": "C:/video/",
+  "FolderDir": "D:/obs-lossless/",
+  "OutFolderDir": "C:/video/",
+  "CRFDefault": "30",
+  "CRF": ["50", "30", "12", "8"]
+}
