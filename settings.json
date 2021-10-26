@@ -1,15 +1,18 @@
 {
-  "InputFilename": "megaflip2",
-  "InputExtension": ".avi",
+  "InputFilename": "2021-10-25_21-41-14",
+  "InputExtension": ".mp4",
   "OutputExtension": ".webm",
+  "FileDir": "C:/video/releaseOBS/",
+  "FolderDir": "C:/Users/Saturn/Videos/",
   "Debug": true,
-  "Batch": true,
+  "Batch": false,
+  "Scale": true,
+  "ScaleMode": "lanczos",
   "Environment": "dev",
   "Mode": "file",
-  "FileDir": "D:/obs-lossless/",
   "OutFileDir": "C:/video/",
-  "FolderDir": "D:/obs-lossless/",
   "OutFolderDir": "C:/video/",
-  "CRFDefault": "30",
-  "CRF": ["50", "30", "12", "8"]
+  "OutResolution": "640x480",
+  "CRFDefault": "20",
+  "CRF": ["50", "30", "12", "8", "4"]
 }

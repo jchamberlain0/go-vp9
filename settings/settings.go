@@ -19,12 +19,15 @@ type SettingsStruct struct {
 	OutputExtension  string    // extension of output file, probably ".webm" if encoding to vp9
 	Debug            bool      // debug logging flag
 	Batch            bool      // flag for using the quality option array instead of default CRF
+	Scale            bool      // flag for scaling the output (this is intended for downscaling)
+	ScaleMode        string    // "neighbor" for nearest neighbor
 	Environment      string    // maybe there's a use for this
 	Mode             string    // "file" for 1 file, or "folder" to encode all matching in the folder (not supported yet)
 	FileDir          string    // input directory for "file" mode
 	OutFileDir       string    // output directory for "file" mode
 	FolderDir        string    // input directory for "folder" mode
 	OutFolderDir     string    // output directory for "folder"
+	OutResolution    string    // output resolution, only when used with scaling filter
 	CRFDefault       string    // default quality option used when batch mode is off
 	CRF              []string  // quality option array for batch mode
 }
