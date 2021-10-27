@@ -1,5 +1,7 @@
 ## go-vp9
 
+**_This project has been replaced with [py_vp9](https://github.com/jchamberlain0/py_vp9)!_**
+
 Go script to encode high quality video files from lossless recordings for use in web applications.
 
 Directories, filenames, and desired constant rate factor are set in settings.json.
